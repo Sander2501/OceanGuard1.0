@@ -1,0 +1,277 @@
+body
+{
+    margin: auto;
+}
+*{
+    font-family: 'Robota','Inter';
+}
+header
+{
+    background-color: #0F4763;
+    padding: 10px;
+}
+.nav-menu ul
+{
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.nav-menu a 
+{
+    background-color:#CFDFD4;
+    color: black;
+    text-decoration: none;
+    padding: 12px 20px; 
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px; 
+    margin-left: 10px; 
+    border: 2px solid transparent; 
+}
+.nav-menu a:hover
+{
+ background-color:#B8ADD5;
+ color: #000000;
+}
+.nav-menu img
+{
+  width: 50px;
+  height: 50px;
+}
+.banner-section 
+{
+    display: flex;
+    width: auto;
+    height: 400px; 
+    background: url('../img/WindMolen.webp') lightgray 50% / cover no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.text
+{
+    display: flex;
+    height: 100px;
+    width: 200px;
+    background-color: #0F4763;
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Robota','Inter';
+
+}
+.text 
+{
+    font-size: 30px;
+    color: #fff;
+}
+body
+{
+    background-color: #CFDFD4;
+}
+.grid-item
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: left;
+    height: auto;
+    width: 550px;
+    justify-items: center;
+}
+main img
+{
+    width: 100%;
+    height: 100%;
+}
+.img-a
+{
+    width: 550px;
+    height: auto;
+    background-size: cover;
+}
+.img-b
+{
+    width: 550px;
+    height: auto;
+    background-size: cover;
+}
+.img-c
+{
+    width: 550px;
+    height: auto;
+    background-size: cover; 
+    background-color: white;
+}
+.button-tips
+{
+    background-color:#CFDFD4;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px; 
+    border: 2px solid transparent; 
+}
+.box-last 
+{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: left;
+    margin: 20px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+    background-color: #CFDFD4;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.footer
+{
+    display: flex;
+    background-color: #0F4763;
+    color: #fff;
+    padding: 20px;
+    margin: 5px 0;
+    width: auto;
+    margin-bottom: 10px;
+    gap: 20px;
+    align-items: start;
+}
+footer img 
+{
+    width: 50px;
+    height: 50px;
+}
+footer section{
+    display: grid;
+    gap: 10px;
+}
+.footer-left p 
+{
+    margin: 10px;
+    font-size: 14px;
+}
+footer nav ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+footer nav ul li 
+{
+    margin-bottom: 10px;
+}
+footer nav ul li a 
+{
+    color: white;
+    font-size: 14px
+}
+.footer-right h3 
+{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer img
+{
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 768px) 
+{
+    .nav-menu ul 
+    {
+        display: block;
+        text-align: center;
+    }
+    .nav-menu a 
+    {
+        display: block;
+        margin: 10px 0;
+    }
+    .banner-section 
+    {
+        display: flex;
+        width: 100%;
+        height: 300px;
+        background: url('../img/Zeehond.jpg') lightgray 50% / cover no-repeat;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-container 
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px auto;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .grid-item 
+    {
+        width: auto;
+        height: auto;
+    }
+
+    .img-a img
+    {
+        color: #CFDFD4;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+    .img-b img
+    {
+        color: #CFDFD4;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+    .img-c img
+    {
+        color: #CFDFD4;
+        width: 100%;
+        height: 100%;
+        background-size: cover; 
+    }
+
+        
+
+
+    .text 
+    {
+        font-size: 25px;
+        width: fit-content;
+        text-align: center;
+        padding: 10px;
+        height: fit-content;
+    }
+    footer 
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
