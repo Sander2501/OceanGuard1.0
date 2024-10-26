@@ -2,5 +2,4 @@ o	Student name: Sander Meijer
 o	Student number: 731941
 o	Student class: HAINF24VT1B
 o	GitHub Repository: https://github.com/Sander2501/OceanGuard1.0
-o	GitHub Repository(): https://github.com/Sander2501/Sander2501.github.io
-o	GitHub Pages URL: 
+o	GitHub Pages URL: https://sander2501.github.io/OceanGuard1.0/
