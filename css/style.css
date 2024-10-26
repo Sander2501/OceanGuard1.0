@@ -1,6 +1,8 @@
 body
 {
     margin: auto;
+    max-width: 100%;
+    background-color: #CFDFD4;
 }
 *{
     font-family: 'Roboto','Inter';
@@ -11,11 +13,11 @@ body
 }
 tr:nth-child(even) 
 {
-    background-color: #CFDFD4;
+    background-color: #cff
 }
-tr:nth-child(odd) 
+tr:nth-child(odd)
 {
-    background-color: #CFDFD4;
+    background-color: #fff;
 }
 .nav-menu > ul > li 
 {
@@ -61,10 +63,6 @@ header
 {
   width: 50px;
   height: 50px;
-}
-.nav-menu > ul > li 
-{
-    margin: 1px;
 }
 .banner-section 
 {
@@ -119,12 +117,6 @@ h1::first-letter
     font-size: 25px;
     color: #fff;
 }
-body
-{
-    max-width: 100%;
-    background-color: #CFDFD4;
-}
-
 main img {
     width: 550px;
     height: 300px;
@@ -140,10 +132,6 @@ main img {
     height: auto;
     width: auto;
     justify-items: center;
-}
-h1,h2
-{
-color: black;
 }
 .img-a 
 {

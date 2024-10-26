@@ -1,6 +1,8 @@
 body
 {
     margin: auto;
+    max-width: 100%;
+    background-color: #CFDFD4;
 }
 *{
     font-family: 'Roboto','Inter';
@@ -76,12 +78,6 @@ header
     font-size: 25px;
     color: #fff;
 }
-body
-{
-    max-width: 100%;
-    background-color: #CFDFD4;
-}
-
 .grid-container 
 {
     display: flex;
@@ -89,7 +85,7 @@ body
     padding: 20px;
     justify-content: center;
 }
-/* Main Section for Contact Page */
+/* Main Section voor de contact pagina. */
 main 
 {
     justify-content: center;
@@ -130,7 +126,6 @@ form
     height:fit-content;
     
 }
-
 form input {
     padding: 10px;
     border-radius: 16px;
@@ -147,7 +142,7 @@ textarea
     resize: none;
     border-radius: 10px;
 }
-button 
+#submit-button
 {
     background-color: #CFDFD4;
     color: black;
@@ -156,7 +151,6 @@ button
     border-radius: 8px;
     font-size: 1.2rem;
     cursor: pointer;
-
 }
 button:hover 
 {
@@ -174,7 +168,8 @@ button:hover
     width: auto;
     align-items: start;
 }
-footer section{
+footer section
+{
     display: grid;
     gap: 10px;
 }

@@ -1,6 +1,8 @@
 body
 {
     margin: auto;
+    max-width: 100%;
+    background-color: #CFDFD4;
 }
 *{
     font-family: 'Roboto','Inter';
@@ -82,11 +84,6 @@ h1::first-letter
     font-size: 25px;
     color: #fff;
 }
-body
-{
-    max-width: 100%;
-    background-color: #CFDFD4;
-}
 .grid-item
 {
     background-color: white;
@@ -135,24 +132,6 @@ main img
     text-transform: uppercase;
     border-radius: 5px; 
     border: 2px solid transparent; 
-}
-.box-last 
-{
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    text-align: left;
-    margin: 20px;
-}
-.box{
-    width: 200px;
-    height: 200px;
-    justify-content: center;
 }
 .grid-container 
 {
